@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>National Football team</title>
+<meta charset="ISO-8859-1">
+<script type="text/javascript" src="JS/jquery-3.3.1.min.js"> </script>
+<script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="JS/canvasjs.min.js"></script>
+<link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="CSS/dropdown.css" >
+<script type="text/javascript" src="JS/Football.js"></script>
+</head>
+<body>
+
+<!-- this is for Container  -->
+	<div class="container-fluid" style="height: 640px; ">
+		<!--this is for First Row  -->
+			<div class="row" style="background-color: black;">
+				<div class="col-lg-12 col-md-12 col-sm-12">			
+					<span style="color: red;  inherit; font-size: 25px; font-family: Book Antiqua;">
+						<marquee >National Football League</marquee>
+					</span>
+				</div>
+			</div>
+		<!-- first Row closed here -->	
+		
+		<!-- 2nd row Starts here -->
+			<div class="row" style="height: 600px;">
+			<!-- this is for 1st column -->
+				<div class="col-lg-3 col-md-3 col-sm-3 loginbox" style="height: 600px;">
+						<div class="dropdown">
+						<button class="dropbtn pointer" id="home" onclick="">Home</button>
+					</div>
+					<br><br><br><br>
+					<div class="dropdown">
+						<button class="dropbtn">Teams</button>
+						<div class="dropdown-content">
+							<button class="dropslidebtn pointer"  id="Asiaa">ASIA</button>
+							<br><br>
+							<button class="dropslidebtn pointer" id="Europe" >EUROPE</button>
+							<br><br>
+							<button class="dropslidebtn pointer" id="Amer" >AMERICA</button>
+							<br><br>
+							<button  class="dropslidebtn pointer" id="Africa" >AFRICA</button>  
+						</div>
+					</div>
+					<br><br><br><br>
+
+					<div class="dropdown">
+						<button class="dropbtn">Top Leagues</button>
+						<div class="dropdown-content">
+							<button class="dropslidebtn pointer"  id="la-liga" >La Liga</button>
+							<br><br>
+							<button class="dropslidebtn pointer"  id="uefaa" >UEFA</button>
+							<br><br>
+							<button class="dropslidebtn pointer"  id="bundesliga" >BUNDESLIGA</button>
+						</div>
+					</div>
+					<br><br><br><br>
+					
+					<div class="dropdown">
+						<button class="dropbtn pointer" id="Player">Top 10 Players</button>
+					</div>
+					<br><br><br><br>
+
+					<div class="dropdown">
+						<button class="dropbtn pointer" id="Gal" >Gallery</button>
+					</div>
+					<br><br><br><br>
+
+					
+					<div class="dropdown">
+						<button class="dropbtn pointer" onclick="Statistics()">Statistics </button>							
+								
+					</div>
+					<br><br><br><br>
+
+					<div class="dropdown">
+						<button class="dropbtn pointer" id="Cont" onclick="Cont();">Contact us</button>
+					</div>	
+					
+					
+		
+				</div>
+		<!--1st column closed here  -->
+			<!--2nd column starts here  -->
+				<div class="col-lg-9 col-md-9 col-sm-9" >
+
+					<span id = 'Gall'></span>
+					<span id="chartContainer" style="height: 1000px; width: 1000px; background-color: black;" ></span>
+					<span id = 'Contact' ></span>
+					<span id = 'Play'></span>
+					<span id = 'euro'></span>
+					<span id = 'asia'></span>
+					<span id = 'usa'></span>
+					<span id = 'africa'></span>
+					<span id = 'laliga'></span>
+					<span id = 'uefa'></span>
+					<span id = 'bund'></span>
+				</div>
+			<!-- 2nd column closed here -->
+		</div><!-- 2nd row closed here -->
+	</div><!-- Container closed here -->
+
+</body>
+
+
+</html>

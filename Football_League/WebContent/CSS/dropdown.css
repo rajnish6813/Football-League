@@ -1,0 +1,101 @@
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0;
+	padding: 0;
+	background: url("../IMAGES/adidas-1.jpg");
+	background-size: cover;
+	font-family: Consolas;
+}
+
+.loginbox {
+	width: 340px;
+	height: 400px;
+	background: #00002d;
+	color: #fff;
+	top: 39px;
+	position: static;
+	box-sizing: border-box;
+	padding: 30px 30px;
+}
+.dropbtn {
+    background-color: #0f235e;
+    color: #f86707;
+    padding: 20px;
+    font-size: 25px;
+    min-width: 230px;
+    font-family: serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: threedshadow;
+}
+
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+
+}
+
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #0080c0;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    padding: 15px 16px;
+    text-decoration: underline;
+    display: block;
+}
+.image
+{
+	width: 20%;
+}
+.imagedrop {
+    display: inline-block;
+}
+
+.imagedrop-content {
+    display: none; 
+    position: fixed;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.imagedrop-content a {
+    color: black;;
+    padding: 8px 8px;
+    text-decoration: underline;
+    display: block;
+}
+
+.dropslidebtn {
+
+    color: #f86707;
+    padding: 5px;
+    font-size: 15px;
+    min-width: 190px;
+    font-family: serif;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: scrollbar;
+}
+
+.pointer
+{
+	cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #ff8080;}
+.dropbtn:hover {box-sizing: content-box; }
+.dropslidebtn:hover  {box-sizing: content-box;  }
+.dropdown:hover .dropdown-content {display: inline-block;}
+.image:hover {box-sizing: content-box; }
+.imagedrop:hover .imagedrop-content {display: inline-table;}
